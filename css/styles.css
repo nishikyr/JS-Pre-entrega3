@@ -1,0 +1,62 @@
+/* Globales */
+html {
+    scroll-behavior: smooth;
+}
+main{
+    padding: 20px !important;
+}
+
+.titles{
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+/* Section de fondo */
+.bg-cover{
+    background-image: url(../img/imagen_fondo.jpg)
+}
+
+.producto{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 1px;
+    align-items: center;
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+/* Boton de busqueda */
+
+.inputBox_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    max-width: 14em;
+    width: fit-content;
+    height: fit-content;
+    background-color: #5c6370;
+    border-radius: 0.8em;
+    overflow: hidden;
+}
+
+.search_icon {
+    height: 1em;
+    padding: 0 0.5em 0 0.8em;
+    fill: #abb2bf;
+}
+
+.inputBox {
+    background-color: transparent;
+    color: #ffffff;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1.5em 0.5em 0;
+    font-size: 1em;
+}
+
+::placeholder {
+    color: #abb2bf;
+}
